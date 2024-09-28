@@ -1,82 +1,82 @@
 {
-  "name": "three.quarks-editor",
-  "description": "A Editor for three.quarks",
-  "version": "0.8.1",
-  "private": false,
-  "homepage": "http://Alchemist0823.github.io/three.quarks-editor",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Alchemist0823/three.quarks-editor.git"
-  },
-  "keywords": [
-    "three.js",
-    "particle",
-    "particle system",
-    "vfx",
-    "graphics",
-    "js",
-    "ts",
-    "three.quarks"
-  ],
-  "author": "Forrest Sun <the.forrest.sun@gmail.com> (https://github.com/Alchemist0823)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Alchemist0823/three.quarks-editor/issues"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint:fix": "eslint --fix --ext .ts,.tsx .",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@minoru/react-dnd-treeview": "^1.6.1",
-    "@mui/icons-material": "^5.10.9",
-    "@mui/lab": "^5.0.0-alpha.107",
-    "@mui/material": "^5.10.13",
-    "mui-nested-menu": "^2.0.0",
-    "prismjs": "^1.29.0",
-    "react": "^17.0.2",
-    "react-color": "2.19.3",
-    "react-dom": "^17.0.2",
-    "react-linear-gradient-picker": "^2.0.3",
-    "react-redux": "^7.2.5",
-    "react-scripts": "^5.0.1",
-    "react-simple-code-editor": "^0.13.1",
-    "reactflow": "^11.2.0",
-    "stats.js": "^0.17.0",
-    "three": "^0.146.0",
-    "three.quarks": "^0.7.3"
-  },
-  "devDependencies": {
-    "@types/jest": "26.0.13",
-    "@types/prismjs": "^1.26.0",
-    "@types/react": "17.0.30",
-    "@types/react-color": "^3.0.5",
-    "@types/react-dom": "17.0.9",
-    "@types/stats.js": "^0.17.0",
-    "@types/three": "^0.146.0",
-    "gh-pages": "^4.0.0",
-    "node-sass": "^6.0.1",
-    "typescript": "^4.6.2"
-  }
+	"name": "three.quarks-editor",
+	"description": "A Editor for three.quarks",
+	"version": "0.8.1",
+	"private": false,
+	"homepage": "http://Alchemist0823.github.io/three.quarks-editor",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Alchemist0823/three.quarks-editor.git"
+	},
+	"keywords": [
+		"three.js",
+		"particle",
+		"particle system",
+		"vfx",
+		"graphics",
+		"js",
+		"ts",
+		"three.quarks"
+	],
+	"author": "Forrest Sun <the.forrest.sun@gmail.com> (https://github.com/Alchemist0823)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Alchemist0823/three.quarks-editor/issues"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"lint:fix": "eslint --fix --ext .ts,.tsx .",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
+		"@minoru/react-dnd-treeview": "^1.6.1",
+		"@mui/icons-material": "^5.10.9",
+		"@mui/lab": "^5.0.0-alpha.107",
+		"@mui/material": "^5.10.13",
+		"mui-nested-menu": "^2.0.0",
+		"prismjs": "^1.29.0",
+		"react": "^17.0.2",
+		"react-color": "2.19.3",
+		"react-dom": "^17.0.2",
+		"react-linear-gradient-picker": "^2.0.3",
+		"react-redux": "^7.2.5",
+		"react-scripts": "^5.0.1",
+		"react-simple-code-editor": "^0.13.1",
+		"reactflow": "^11.2.0",
+		"stats.js": "^0.17.0",
+		"three": "^0.146.0",
+		"three.quarks": "^0.8.8"
+	},
+	"devDependencies": {
+		"@types/jest": "26.0.13",
+		"@types/prismjs": "^1.26.0",
+		"@types/react": "17.0.30",
+		"@types/react-color": "^3.0.5",
+		"@types/react-dom": "17.0.9",
+		"@types/stats.js": "^0.17.0",
+		"@types/three": "^0.146.0",
+		"gh-pages": "^4.0.0",
+		"node-sass": "^9.0.0",
+		"typescript": "^4.6.2"
+	}
 }
